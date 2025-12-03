@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omnichat 測試</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .test-section {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+        }
+
+        .test-section h2 {
+            color: #555;
+            margin-top: 0;
+        }
+
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+
+        .info {
+            background: #e8f4fd;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+            font-size: 14px;
+        }
+
+        .url-display {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px 0;
+            font-family: monospace;
+            font-size: 12px;
+            word-break: break-all;
+            line-height: 1.5;
+        }
+
+        .success {
+            color: #28a745;
+        }
+
+        .error {
+            color: #dc3545;
+        }
+
+        .warning {
+            color: #fd7e14;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>🧪 Omnichat 測試</h1>
+
+<!-- Start of Omnichat code -->
+  <script>var a=document.createElement('a');a.setAttribute('href','javascript:;');a.setAttribute('id','easychat-floating-button');
+    var span=document.createElement('span');span.setAttribute('id', 'easychat-unread-badge');span.setAttribute('style','display: none');var d1=document.createElement('div');d1.setAttribute('id','easychat-close-btn');d1.setAttribute('class','easychat-close-btn-close');var d2=document.createElement('div');d2.setAttribute('id','easychat-chat-dialog');d2.setAttribute('class','easychat-chat-dialog-close');var ifrm=document.createElement('iframe');ifrm.setAttribute('id','easychat-chat-dialog-iframe');
+    ifrm.setAttribute('src','https://client-chat.easychat.co/?appkey=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0ZWFtTmFtZSI6IjMwZTQ1ODZkLTg5OTktNGFlOC05Y2FhLWVmZTQ3NWM5OGRkNyJ9.nt4-6M6dopqnnCOgUp3R3syfJrC_yw7iW0Bakoaibe4&lang=zh-Hant');
+    ifrm.style.width='100%';ifrm.style.height='100%';ifrm.style.frameborder='0';ifrm.style.scrolling='on';d2.appendChild(ifrm);
+    if(!document.getElementById("easychat-floating-button")){
+      document.body.appendChild(a);document.body.appendChild(span);document.body.appendChild(d1);document.body.appendChild(d2);
+    }
+    var scriptURL = 'https://chat-plugin.easychat.co/easychat.js';
+    if(!document.getElementById("omnichat-plugin")) {
+      var scriptTag = document.createElement('script');
+      scriptTag.src = scriptURL;
+      scriptTag.id = 'omnichat-plugin';
+      document.body.appendChild(scriptTag);
+    }
+  </script>
+<!-- End of Omnichat code -->
+
+
+    </div>
+</body>
+
+</html>
